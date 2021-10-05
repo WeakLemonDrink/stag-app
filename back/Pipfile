@@ -5,9 +5,15 @@ name = "pypi"
 
 [packages]
 django = "==3.2.7"
-djangorestframework = "*"
+djangorestframework = "==3.12.4"
+djangorestframework-simplejwt = "==4.8.0"
 
 [dev-packages]
+black = "==21.8b0"
+flake8 = "==3.9.2"
+pytest = "==6.2.5"
+pytest-django = "==4.4.0"
+pytest-mock = "==3.6.1"
 
 [requires]
 python_version = "3.8.5"
